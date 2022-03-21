@@ -8,8 +8,8 @@
 </head>
 <body>
 <div class="scratchblocks">
-test ::hat
-    scratchblock
+ニコラ・テスラ教？ ::hat
+    お金増やせる💰👍
 </div>
 <script>scratchblocks.renderMatching('.scratchblocks', {languages:["en","ja"], style:"scratch3"});</script>
    
@@ -20,7 +20,7 @@ test ::hat
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Waking up ･ﾟ✧</title>
+    <title>二コラ・テスラ教ホームページ</title>
     <noscript>
       <meta http-equiv="refresh" content="1">
     </noscript>
@@ -177,88 +177,13 @@ window.onload = function () {
   });
 }
 </script>
-
-<script>
-/* container status updates
-setTimeout(function () {
-  function reloadAfterDelay(delay) {
-    delay = delay || 1000;
-    return setTimeout(function () {
-      window.location.reload(true);
-    }, delay);
-  }
-  try {
-    var isValidBrowser = bowser.check({
-      ios: "7",
-      msie: "10",
-      android: "4.4",
-      chrome: "16",
-      firefox: "11",
-    });
-
-    if (!isValidBrowser) {
-      throw new Error("Jump to refresh");
-    }
-
-    var initialReloadHandler = reloadAfterDelay(5000);
-
-    var ws = new WebSocket("wss://" + document.location.hostname + "/___glitch_loading_status___");
-    ws.onmessage = updateContainerStatus;
-    ws.onerror = reloadAfterDelay;
-    ws.onopen = function () {
-      clearTimeout(initialReloadHandler);
-      setInterval(function () {
-        ws.send("keepalive");
-      }, 15000);
-    };
-    ws.onclose = function () {
-      reloadAfterDelay(1000);
-    };
-
-    function updateContainerStatus(event) {
-      try {
-        var data = JSON.parse(event.data);
-        var message = document.getElementById('message')
-        var text = "";
-        switch (data.text) {
-          case "initialize":
-            text = "Waking up";
-            break;
-          case "install":
-            text = "Preparing";
-            break;
-          case "restart":
-            text = "Starting";
-            break;
-          case "listening":
-            text = "Ready";
-            break;
-          default:
-            return;
-        }
-        message.innerHTML = text;
-        document.title = text + " ･ﾟ✧";
-
-        if (data.text === 'listening') {
-          window.location.reload(true);
-        }
-      } catch (e) {
-        reloadAfterDelay();
-      }
-    }
-  } catch (e) {
-    reloadAfterDelay();
-  }
-}, 0);
-*/
-</script>
   </body>
 </html>
 
     
     
 
-  <p class="test1">ここはlegrsのテストページです</p>
+  <p class="test1">ここは二コラテスラのテストページです</p>
     
 </body>
 </html>
